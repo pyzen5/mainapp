@@ -9,6 +9,6 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:false}));
 
 var PORT = process.env.PORT || 3000;
-app.listen(3000,function(){
+app.listen(PORT,function(){
     console.log('server started at port '+PORT);
 });
