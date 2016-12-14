@@ -2,10 +2,10 @@ angular.module('mainMod').config(function($urlRouterProvider,$stateProvider){
     //$urlRouterProvider.otherwise('/');
     $stateProvider.state('home',{
         url:'/home',
-        template:'Home Page'
+        templateUrl:'partials/home.html'
     })
     $stateProvider.state('about',{
         url:'/about',
-        template:'About Page'
+        templateUrl:'partials/about.html'
     })
 })
