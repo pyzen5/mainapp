@@ -13,6 +13,26 @@ angular.module('mainMod')
         url:'/about',
         templateUrl:'partials/about.html'
     })
+    $stateProvider.state('login',{
+        url:'/login',
+        templateUrl:'partials/login.html'
+    })
+    $stateProvider.state('logout',{
+        url:'/logout',
+        templateUrl:'partials/about.html'
+    })
+    $stateProvider.state('vehicles',{
+        url:'/vehicles',
+        templateUrl:'partials/vehicles.html'
+    })
+        $stateProvider.state('extras',{
+        url:'/extras',
+        templateUrl:'partials/extras.html'
+    })
+        $stateProvider.state('confirmation',{
+        url:'/confirmation',
+        templateUrl:'partials/about.html'
+    })
     }
 
     run.$inject = ['$rootScope', '$location', '$window'];
